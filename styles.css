@@ -1,5 +1,5 @@
 body {
-    background:purple;
+    background:#7FFFD4;
     font-family:Arial, Helvetica,vsans-serif;
 }
 
@@ -8,14 +8,28 @@ body {
     padding: 10px;
     margin: 10px;
     background-color: beige;
+    border-radius: 5px;
 }
 .assignment img {
     width: 200px;
     padding: 10px;
+    border: 4px solid #20B2AA;
   
 }
 
+.assignment img:hover {
+    border:4px dashed white;
+}
+
 h1 {
-    color: blue;
+    color: #20B2AA;
     text-align: center;
+}
+a {
+    text-decoration:none;
+    color:#20B2AA;
+}
+
+a:hover {
+    color:white;
 }
